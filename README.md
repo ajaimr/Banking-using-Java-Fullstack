@@ -70,7 +70,7 @@ banking-app/
 
 2. Navigate to the backend folder:
    ```bash
-   cd banking-app/banking-backend
+   cd backend
    ```
 
 3. Configure MySQL in `application.properties`:
@@ -98,7 +98,7 @@ banking-app/
 
 1. Navigate to the frontend directory:
    ```bash
-   cd ../banking-frontend
+   cd ../frontend
    ```
 
 2. Install dependencies:
@@ -113,52 +113,10 @@ banking-app/
 
 4. Open in browser: [http://localhost:4200](http://localhost:4200)
 
----
-
-## 🔗 Sample REST APIs
-
-| Method | Endpoint                                     | Description                |
-|--------|----------------------------------------------|----------------------------|
-| POST   | `/api/accounts`                              | Create new bank account    |
-| GET    | `/api/accounts/{id}`                         | Get account details        |
-| POST   | `/api/accounts/{id}/deposit`                 | Deposit funds              |
-| POST   | `/api/accounts/{id}/withdraw`                | Withdraw funds             |
-| GET    | `/api/accounts/{id}/transactions`            | Get transaction history    |
 
 ---
 
-## 🧪 Sample JSON Payloads
 
-### Create Account
-```json
-{
-  "name": "Ajai",
-  "email": "ajai@example.com",
-  "initialBalance": 5000
-}
-```
-
-### Deposit Money
-```json
-{
-  "amount": 1000
-}
-```
-
-### Withdraw Money
-```json
-{
-  "amount": 500
-}
-```
-
----
-
-## 📸 Screenshots
-
-> *(Add frontend UI screenshots here for better visibility)*
-
----
 
 ## 📚 Future Improvements
 
@@ -169,16 +127,4 @@ banking-app/
 
 ---
 
-## 👨‍💻 Author
 
-**Ajai MR**  
-Full Stack Developer | Java | Angular | Spring Boot  
-📍 From: Kanyakumari  
-📫 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-📧 Email: ajai@example.com
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
