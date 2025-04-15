@@ -1,0 +1,8 @@
+.login-container {
+    height: 100vh;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/010/518/831/small_2x/digital-finance-and-banking-investment-service-in-futuristic-background-bank-building-with-online-growth-graph-investment-secure-money-and-financial-innovation-technology-vector.jpg') no-repeat center center/cover;
+
+    /* background: url('https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; */
+    padding: 2rem;
+  }
+  

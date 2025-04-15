@@ -1,0 +1,28 @@
+<app-nav2></app-nav2>
+    <div class="container mt-4">
+      <h3 class="mb-3">Transaction History</h3>
+    
+      <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>Type</th>
+
+            <th>Amount</th>
+            <th>Timestamp</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (t of trans;track $index) {
+            <tr>
+                <td>{{ t.type }}</td>
+
+              <td>{{ t.amount }}</td>
+              <td>{{ t.timestamp }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+    
+  
+  

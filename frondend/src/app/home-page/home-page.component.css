@@ -1,0 +1,15 @@
+.container {
+    max-width: 800px;
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+  }
+  
+  .card-title {
+    color: #003366;
+  }
+  a{
+    color: #f8f9fa;
+  }
+  

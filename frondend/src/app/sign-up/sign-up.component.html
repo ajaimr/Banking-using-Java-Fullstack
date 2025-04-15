@@ -1,0 +1,25 @@
+<div class="signup-container d-flex justify-content-center align-items-center">
+    <div class="card shadow-lg p-4 bg-white rounded w-100" style="max-width: 400px;">
+      <h3 class="text-center mb-4 text-primary">Create Your MRA Bank Account</h3>
+  
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <div class="form-group mb-3">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" class="form-control" formControlName="name" required />
+        </div>
+  
+        <div class="form-group mb-3">
+          <label for="email">Email address</label>
+          <input type="email" id="email" class="form-control" formControlName="email" required />
+        </div>
+  
+        <div class="form-group mb-4">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="form-control" formControlName="password" required />
+        </div>
+  
+        <button class="btn btn-primary w-100" type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  

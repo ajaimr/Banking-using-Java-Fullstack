@@ -1,0 +1,21 @@
+<app-nav2></app-nav2>
+<div class="container mt-4">
+    <div class="card p-4 shadow-sm">
+      <h3 class="mb-3">Deposit</h3>
+      <form [formGroup]="depositForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+          <label class="form-label">User ID</label>
+          <input class="form-control" formControlName="userId" type="number" required>
+        </div>
+  
+        <div class="mb-3">
+          <label class="form-label">Amount</label>
+          <input class="form-control" formControlName="amount" type="number" step="0.01" required>
+        </div>
+  
+        <button class="btn btn-success" type="submit" [disabled]="depositForm.invalid">Deposit</button>
+      </form>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+  

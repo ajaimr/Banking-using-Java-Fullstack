@@ -1,0 +1,16 @@
+<div class="transaction-form">
+    <h2>Make a Transaction</h2>
+    <form [formGroup]="transactionForm" (ngSubmit)="onSubmit()">
+      <label>Amount:</label>
+      <input type="number" formControlName="amount" placeholder="Enter amount" required />
+  
+      <label>Type:</label>
+      <select formControlName="type">
+        <option value="DEPOSIT">Deposit</option>
+        <option value="WITHDRAW">Withdraw</option>
+      </select>
+  
+      <button type="submit" [disabled]="transactionForm.invalid">Submit</button>
+    </form>
+  </div>
+  
